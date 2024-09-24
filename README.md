@@ -32,7 +32,7 @@ This is a Node.js server that connects to an LG webOS TV and sends notifications
 
 1. Update the TV's IP address in the code:
 
-   Open the `index.js` file (or whichever file contains the server code) and modify the following line to use your LG webOS TV's IP address:
+   Open the `app.js` file (or whichever file contains the server code) and modify the following line to use your LG webOS TV's IP address:
 
    ```javascript
    const lgtv = require('lgtv2')({
@@ -45,7 +45,7 @@ This is a Node.js server that connects to an LG webOS TV and sends notifications
    Run the server using:
 
    ```bash
-   node index.js
+   node app.js
    ```
 
    The server will start listening on port `3000` (or a different port specified in the code).
